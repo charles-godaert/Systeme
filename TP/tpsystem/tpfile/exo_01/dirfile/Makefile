@@ -15,6 +15,6 @@ file2.o: file2.cxx ../include/notreEntete.h
 
 
 clean:
-	rm *.o $(nom).run
+	clear; rm -rf *.o *.run
 
 
